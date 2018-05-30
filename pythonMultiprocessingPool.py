@@ -1,3 +1,5 @@
+# Pool class take user provided cores amount. Note that utilise all cores may not give the best run time. Moreover, Pool class has a map function of its own.
+
 from multiprocessing import Pool
 import multiprocessing as mp
 import time
