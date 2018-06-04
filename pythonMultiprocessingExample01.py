@@ -33,7 +33,7 @@ def main():
     p1.start()
     p2.start()
 
-    p1.join()
+    p1.join() # join() mean wait till p1 completes its tasks.
     p2.join()
 
     print('Done!, the run time is: {}'.format(time.time() - t0))
